@@ -1,0 +1,127 @@
+/* General App Layout */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  background-color: #1f2937; /* Dark navy */
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #93c5fd; /* Light blue on hover */
+}
+
+/* Headings */
+h2, h3 {
+  text-align: center;
+  margin-top: 2rem;
+  color: #1f2937;
+}
+
+/* Form Styling */
+form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 4px rgba(37, 99, 235, 0.3);
+}
+
+/* Button Styling */
+form button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Store List Cards */
+.store-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.store-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.store-card:hover {
+  transform: translateY(-5px);
+}
+
+.store-card h3 {
+  margin: 0;
+  color: #111827;
+}
+
+.store-card p {
+  margin: 0.5rem 0;
+  color: #6b7280;
+}
+
+/* Rating Stars */
+.rating {
+  color: #fbbf24; /* Gold color for stars */
+  font-size: 1.2rem;
+}
+
+/* Responsive Fix */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  
+  nav a {
+    margin: 0.5rem 0;
+  }
+}
