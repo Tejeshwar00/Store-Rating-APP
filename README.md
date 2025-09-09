@@ -165,9 +165,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - your.email@example.com
+Your Name - tejeshwarrao9179@gmail.com
 
-Project Link: [https://github.com/yourusername/store-rating-app](https://github.com/yourusername/store-rating-app)
+Project Link: [https://github.com/Tejeshwar00/store-rating-app](https://github.com/Tejeshwar00/store-rating-app)
 
 ## Acknowledgments
 
