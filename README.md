@@ -1,8 +1,6 @@
 # Store-Rating-APP
 Store Rating App 🏬⭐ – A full-stack web application where users can discover stores, view details, and share reviews with ratings. Includes authentication, review management, and store owner controls.
-# Store Rating App
 
- [Your Backend Technology] backend.
 
 ## Features
 
@@ -159,9 +157,6 @@ JWT_SECRET=your_jwt_secret
 - [ ] Mobile app version
 - [ ] Email notifications
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
