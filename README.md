@@ -14,15 +14,15 @@ Store Rating App 🏬⭐ – A full-stack web application where users can discov
 ## Tech Stack
 
 ### Frontend
-- **React** - UI framework
-- **React Router** - Client-side routing
-- **CSS3** - Styling
-- **Axios** - HTTP client (if using)
+- React - UI framework
+- React Router - Client-side routing
+- CSS3 - Styling
+- Axios - HTTP client (if using)
 
 ### Backend
-- **[Your Backend Technology]** - Server framework
-- **[Your Database]** - Database
-- **[Authentication Method]** - User authentication
+- Node.js + Express - Server framework
+- MySQL - Database
+- JWT-based authentication - User authentication
 
 ## Project Structure
 
@@ -47,23 +47,22 @@ store-rating-app/
 ### Prerequisites
 - Node.js (v14 or higher)
 - npm or yarn
-- [Any other requirements for your backend]
 
 ### Frontend Setup
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/yourusername/store-rating-app.git
    cd store-rating-app
    ```
 
-2. **Install frontend dependencies**
+2. Install frontend dependencies
    ```bash
    cd frontend
    npm install
    ```
 
-3. **Start the development server**
+3. Start the development server
    ```bash
    npm start
    ```
@@ -71,18 +70,18 @@ store-rating-app/
 
 ### Backend Setup
 
-1. **Navigate to backend directory**
+1. Navigate to backend directory
    ```bash
    cd backend
    ```
 
-2. **Install backend dependencies**
+2. Install backend dependencies
    ```bash
    npm install
    # or if using Python: pip install -r requirements.txt
    ```
 
-3. **Start the backend server**
+3. Start the backend server
    ```bash
    npm start
    # or: node server.js
