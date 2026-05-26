@@ -17,7 +17,7 @@ Store Rating App 🏬⭐ – A full-stack web application where users can discov
 - React - UI framework
 - React Router - Client-side routing
 - CSS3 - Styling
-- Axios - HTTP client (if using)
+- Axios - HTTP client
 
 ### Backend
 - Node.js + Express - Server framework
